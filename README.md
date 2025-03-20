@@ -1,5 +1,12 @@
 # Askend Test Assignment
 
+## Notes
+
+- **Frontend Styles**: Currently, styles have been applied only for the modal view. The default view does not have custom styles. Unfortunately, I didn’t have time to implement the styles for the default view before submitting the assignment.
+- **Backend Data**: The backend currently does not seed test data. Due to time constraints, I wasn’t able to implement automatic data seeding, but the filters can be added or created manually through the API endpoints.
+
+---
+
 ## Setup and Run the Project
 
 ### 1. Clone the repository
@@ -33,13 +40,6 @@ cd frontend docker-compose up --build
 This command will:
 - Build and start the frontend container.
 - By default, the frontend will run on `http://localhost:3000`.
-
----
-
-## Notes
-
-- **Frontend Styles**: Currently, styles have been applied only for the modal view. The default view does not have custom styles. Unfortunately, I didn’t have time to implement the styles for the default view before submitting the assignment.
-- **Backend Data**: The backend currently does not seed test data. Due to time constraints, I wasn’t able to implement automatic data seeding, but the filters can be added or created manually through the API endpoints.
 
 ---
 
