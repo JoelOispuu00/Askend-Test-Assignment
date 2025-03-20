@@ -14,7 +14,8 @@
 Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/JoelOispuu00/Askend-Test-Assignment.git cd Askend-Test-Assignment
+git clone https://github.com/JoelOispuu00/Askend-Test-Assignment.git
+cd Askend-Test-Assignment
 ```
 
 ### 2. Run Backend
@@ -22,7 +23,8 @@ git clone https://github.com/JoelOispuu00/Askend-Test-Assignment.git cd Askend-T
 Navigate to the backend directory and start the backend container using Docker Compose:
 
 ```bash
-cd backend docker-compose up --build
+cd backend
+docker-compose up --build
 ```
 
 This command will:
@@ -34,7 +36,8 @@ This command will:
 Navigate to the frontend directory and start the frontend container using Docker Compose:
 
 ```bash
-cd frontend docker-compose up --build
+cd frontend
+docker-compose up --build
 ```
 
 This command will:
