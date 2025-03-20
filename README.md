@@ -14,7 +14,7 @@
 Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/yourusername/filter-management-system.git cd filter-management-system
+git clone [https://github.com/yourusername/filter-management-system.git](https://github.com/JoelOispuu00/Askend-Test-Assignment.git) cd Askend-Test-Assignment
 ```
 
 ### 2. Run Backend
