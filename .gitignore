@@ -1,0 +1,45 @@
+# Node.js / React
+node_modules/
+build/
+dist/
+.cache/
+yarn-debug.log*
+yarn-error.log*
+npm-debug.log*
+/*.log
+
+# Vscode settings
+.vscode/
+
+# Symfony / PHP
+/vendor/
+/var/
+/node_modules/
+*.log
+*.phpunit.result.cache
+.php_cs.cache
+/.idea
+/.vscode
+
+# Composer files
+/composer.phar
+
+# Symfony Config Directory (if you don't want to track it)
+config/jwt
+config/secrets
+
+# Docker
+docker/*.log
+
+# MacOS
+.DS_Store
+
+# IDEs
+.idea/
+
+# NPM
+npm-debug.log
+
+# Yarn
+yarn-debug.log
+yarn-error.log

@@ -1,0 +1,13 @@
+services:
+  frontend:
+    build: ./  # Ensure this points to the correct folder containing Dockerfile
+    volumes:
+      - ./:/app  # Mount only the frontend folder to the container
+      - /app/node_modules  # Prevent node_modules from being overwritten
+    ports:
+      - "3000:3000"  # Expose React's default dev server port
+    environment:
+      - CHOKIDAR_USEPOLLING=true
+      - WATCHPACK_POLLING=true
+      - FAST_REFRESH=false
+    command: npm start  # Run the React development server
